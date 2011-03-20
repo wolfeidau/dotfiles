@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/markw/Code/Ruby/rails_projects/logmiller'
+let g:netrw_dirhist_2='/Users/markw/Code/Ruby/rails_projects/logmiller/config'
+let g:netrw_dirhist_3='/Users/markw/Code/Ruby/wolfeidau_site/_includes'
