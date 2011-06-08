@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.iml
+*.ipr
+*.iws
+.idea
+target
+server.log*
+*.log
