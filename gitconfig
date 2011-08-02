@@ -2,4 +2,4 @@
 	name = Mark Wolfe
 	email = mark@wolfe.id.au
 [core]
-	excludesfile = /Users/markw/.gitignore
+	excludesfile = ~/.gitignore
