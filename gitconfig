@@ -1,5 +1,27 @@
 [user]
 	name = Mark Wolfe
 	email = mark@wolfe.id.au
+	# signingkey = ssh-wolfeidau PUBLIC_KEY_HERE github wolfeidau
 [core]
 	excludesfile = ~/.gitignore
+
+[init]
+	defaultBranch = main
+
+[branch "master"]
+	mergeoptions = --no-ff
+
+[branch "main"]
+	mergeoptions = --no-ff
+
+[merge]
+	conflictstyle = diff3
+
+[status]
+	showUntrackedFiles = all
+
+[alias]
+	co = checkout
+	st = status -sb
+	authors = shortlog --summary --email --numbered
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(green)%d%Creset %s %C(yellow)(%cr) %C(blue)<%an>%Creset'
